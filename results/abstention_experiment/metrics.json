@@ -1,0 +1,122 @@
+{
+  "halueval": {
+    "verifier": {
+      "0.2": {
+        "total": 100,
+        "answered": 77,
+        "coverage": 0.77,
+        "abstain_rate": 0.22999999999999998,
+        "accuracy_answered": 0.8051948051948052,
+        "risk": 0.19480519480519476,
+        "overall_accuracy": 0.66
+      },
+      "0.4": {
+        "total": 100,
+        "answered": 84,
+        "coverage": 0.84,
+        "abstain_rate": 0.16000000000000003,
+        "accuracy_answered": 0.7857142857142857,
+        "risk": 0.2142857142857143,
+        "overall_accuracy": 0.67
+      },
+      "0.6": {
+        "total": 100,
+        "answered": 85,
+        "coverage": 0.85,
+        "abstain_rate": 0.15000000000000002,
+        "accuracy_answered": 0.788235294117647,
+        "risk": 0.21176470588235297,
+        "overall_accuracy": 0.68
+      },
+      "0.8": {
+        "total": 100,
+        "answered": 89,
+        "coverage": 0.89,
+        "abstain_rate": 0.10999999999999999,
+        "accuracy_answered": 0.797752808988764,
+        "risk": 0.202247191011236,
+        "overall_accuracy": 0.72
+      }
+    }
+  },
+  "truthfulqa": {
+    "answer_only": {
+      "None": {
+        "total": 50,
+        "answered": 50,
+        "coverage": 1.0,
+        "abstain_rate": 0.0,
+        "accuracy_answered": 0.82,
+        "risk": 0.18000000000000005,
+        "overall_accuracy": 0.82
+      }
+    },
+    "consistency": {
+      "0.4": {
+        "total": 50,
+        "answered": 16,
+        "coverage": 0.32,
+        "abstain_rate": 0.6799999999999999,
+        "accuracy_answered": 0.875,
+        "risk": 0.125,
+        "overall_accuracy": 0.28
+      },
+      "0.6": {
+        "total": 50,
+        "answered": 16,
+        "coverage": 0.32,
+        "abstain_rate": 0.6799999999999999,
+        "accuracy_answered": 0.875,
+        "risk": 0.125,
+        "overall_accuracy": 0.28
+      },
+      "0.8": {
+        "total": 50,
+        "answered": 10,
+        "coverage": 0.2,
+        "abstain_rate": 0.8,
+        "accuracy_answered": 0.9,
+        "risk": 0.09999999999999998,
+        "overall_accuracy": 0.18
+      }
+    },
+    "self_eval": {
+      "0.2": {
+        "total": 50,
+        "answered": 50,
+        "coverage": 1.0,
+        "abstain_rate": 0.0,
+        "accuracy_answered": 0.82,
+        "risk": 0.18000000000000005,
+        "overall_accuracy": 0.82
+      },
+      "0.4": {
+        "total": 50,
+        "answered": 49,
+        "coverage": 0.98,
+        "abstain_rate": 0.020000000000000018,
+        "accuracy_answered": 0.8163265306122449,
+        "risk": 0.18367346938775508,
+        "overall_accuracy": 0.8
+      },
+      "0.6": {
+        "total": 50,
+        "answered": 49,
+        "coverage": 0.98,
+        "abstain_rate": 0.020000000000000018,
+        "accuracy_answered": 0.8163265306122449,
+        "risk": 0.18367346938775508,
+        "overall_accuracy": 0.8
+      },
+      "0.8": {
+        "total": 50,
+        "answered": 48,
+        "coverage": 0.96,
+        "abstain_rate": 0.040000000000000036,
+        "accuracy_answered": 0.8333333333333334,
+        "risk": 0.16666666666666663,
+        "overall_accuracy": 0.8
+      }
+    }
+  }
+}
