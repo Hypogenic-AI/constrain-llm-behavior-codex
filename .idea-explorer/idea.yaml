@@ -1,0 +1,27 @@
+idea:
+  title: How to constrain LLM's behavior?
+  domain: nlp
+  hypothesis: 'It is possible to motivate large language models (LLMs) to add constraints
+    to their behavior such that, instead of generating hallucinated responses, they
+    can choose to abstain from answering, say "I don''t know," or "I need more data,"
+    and by choosing this option, they are better off. Creating a training signal or
+    a verifier model can enable LLMs to recognize when they are incapable of answering
+    a question.
+
+    '
+  background:
+    description: While humans are very good at acting selectively, this is fundamentally
+      hard for LLMs to do as they're generative models. So how can we motivate LLMs
+      to add constraint to their behavior? Instead of generating hallucinated responses,
+      they should have the option to abstain from the question, to say "I don't know,"
+      or "I need more data," and by choosing this option, they're better off. How
+      to create a training signal or a verifier model that makes LLMs realize at one
+      moment that they are incapable of this question.
+  metadata:
+    source: IdeaHub
+    source_url: https://hypogenic.ai/ideahub/idea/nZ3Wq17WoqBQcUuNVU8e
+    idea_id: how_to_constrain_llm_s_behavio_20251228_191029_db86175d
+    created_at: '2025-12-28T19:10:29.744315'
+    status: submitted
+    github_repo_name: constrain-llm-behavior-codex
+    github_repo_url: https://github.com/Hypogenic-AI/constrain-llm-behavior-codex
